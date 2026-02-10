@@ -59,12 +59,12 @@ const StorySection: React.FC = () => {
           <div className="absolute -top-4 -left-4 w-full h-full border border-gold-400/20 rounded-t-full pointer-events-none z-0 transition-transform duration-700 group-hover:-translate-x-2 group-hover:-translate-y-2"></div>
           <div className="absolute -bottom-4 -right-4 w-full h-full border border-gold-400/20 rounded-b-full pointer-events-none z-0 transition-transform duration-700 group-hover:translate-x-2 group-hover:translate-y-2"></div>
           
-          <div className="relative z-10 rounded-t-full rounded-b-full overflow-hidden shadow-2xl bg-navy-950 border-4 border-navy-800">
-            <img 
-              src="https://images.unsplash.com/photo-1595814433015-e6f5cd696144?q=80&w=1200&auto=format&fit=crop" 
-              alt="The Couple" 
-              className="w-full h-[500px] object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-1000 scale-100 group-hover:scale-105"
-            />
+         <div className="relative z-10 w-[420px] h-[420px] md:w-[520px] md:h-[520px] rounded-full overflow-hidden shadow-2xl bg-navy-950 border-4 border-navy-800 mx-auto">
+    <img 
+            src="/images/ab.png" 
+             className="w-full h-full object-cover object-top"
+  alt="The Couple"
+/>
             <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-transparent to-transparent opacity-60"></div>
           </div>
         </div>
